@@ -13,10 +13,10 @@
 /// });
 library timezone.browser;
 
-import 'dart:html';
 import 'dart:typed_data';
 
 import 'package:timezone/timezone.dart';
+import 'package:universal_html/html.dart';
 
 export 'package:timezone/timezone.dart'
     show
